@@ -1,0 +1,202 @@
+body {
+	background-image: url("https://rayyansecutech.com/wp-content/uploads/2018/02/RST-Laptop-Dark.jpg");
+	background-attachment:fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+nav.navbar {
+	padding-bottom:60px;
+	border-bottom:7px solid #140105;
+}
+
+.navbar-nav {
+	margin-left: 19.5%;
+}
+
+.nav-item {
+	padding-right: 125px;
+}
+
+.nav-link {
+    
+}
+
+.nav-link:hover {
+	box-shadow: 0 4px 8px 0 #140105;
+}
+
+.dropdown:hover .dropdown-menu {
+  	display: block;
+}
+
+.dropdown-menu a:hover {
+	background-color: #ddd;;
+}
+
+.row {
+	justify-content: center;
+}
+
+.card {
+	margin: 10px;
+}
+
+#Primary .card-body{
+	position: relative;
+}
+
+#Primary .overlay {
+	width: 100%
+	height: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+    padding-top: 30px;
+    padding-bottom: 34px;
+}
+
+#Primary .overlay:hover{
+	background: rgba(0,0,0,.7);
+}
+
+#Success .overlay:hover{
+	background: rgba(0,0,0,.7);
+}
+
+#Orange .overlay:hover{
+	background: rgba(0,0,0,.7);
+}
+
+#card1 .overlay:hover{
+	background: rgba(0,0,0,.7);
+}
+
+#Primary {
+	padding-bottom: 138px;
+}
+
+#Primary:hover {
+	box-shadow: 0 4px 8px 0 #2561d1;
+}
+
+#Success:hover {
+	box-shadow: 0 4px 8px 0 #33a51f;
+}
+
+#Orange:hover {
+	box-shadow: 0 4px 8px 0 #e29906;
+}
+
+
+.hidden {
+	padding-top: 50px;
+}
+
+#card1 .card:hover {
+	box-shadow: 0 4px 8px 0 #2561d1;
+}
+
+#slider {
+    overflow: hidden;
+}
+
+#slider .slides {
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+}
+
+#slider img {
+	width: 600px;
+	height: 400px;
+	display: block;
+}
+
+.show{
+    z-index: 999;
+    display: none;
+}
+
+.show .overlay2{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.66);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.show .img-show{
+    
+    max-width: 80%;
+    max-height: 80%;
+    background: #FFF;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: auto;
+}
+
+#ResumeImg{
+   
+}
+
+.center {
+    display: table;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#social-test {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 30px;
+}
+
+#social-test li {
+    color: #fff;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: 100;
+}
+
+.social {
+    padding-left: 0px;
+}
+
+#social-test li {
+    color: rgba(167, 146, 129, 0.6);
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 1%;
+    border: 1px solid rgba(167, 146, 129, 0.4);
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    transition: ease .3s;
+    &:hover {
+      color: rgba(167, 146, 129, 1);
+      border: 1px solid rgba(167, 146, 129, 1);
+    }
+}
+
+.social:hover > li {
+    opacity: 0.5;
+}
+
+.social:hover > li:hover {
+    opacity: 1;
+}
